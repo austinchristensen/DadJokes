@@ -13,6 +13,10 @@
 		43B5123025A8D5C800435FE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B5122F25A8D5C800435FE6 /* Preview Assets.xcassets */; };
 		43B5123225A8D5C800435FE6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5123125A8D5C800435FE6 /* Persistence.swift */; };
 		43B5123525A8D5C800435FE6 /* DadJokes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B5123325A8D5C800435FE6 /* DadJokes.xcdatamodeld */; };
+		43B5123E25A8E46F00435FE6 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5123D25A8E46F00435FE6 /* EmojiView.swift */; };
+		43B5124825A8FC8200435FE6 /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5124625A8FC8200435FE6 /* Joke+CoreDataClass.swift */; };
+		43B5124925A8FC8200435FE6 /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5124725A8FC8200435FE6 /* Joke+CoreDataProperties.swift */; };
+		43B5124C25A9049200435FE6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5124B25A9049200435FE6 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		43B5123125A8D5C800435FE6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		43B5123425A8D5C800435FE6 /* DadJokes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DadJokes.xcdatamodel; sourceTree = "<group>"; };
 		43B5123625A8D5C800435FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B5123D25A8E46F00435FE6 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		43B5124625A8FC8200435FE6 /* Joke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataClass.swift"; sourceTree = "<group>"; };
+		43B5124725A8FC8200435FE6 /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		43B5124B25A9049200435FE6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		43B5122725A8D5C700435FE6 /* DadJokes */ = {
 			isa = PBXGroup;
 			children = (
+				43B5124625A8FC8200435FE6 /* Joke+CoreDataClass.swift */,
+				43B5124725A8FC8200435FE6 /* Joke+CoreDataProperties.swift */,
 				43B5122825A8D5C700435FE6 /* DadJokesApp.swift */,
 				43B5122A25A8D5C700435FE6 /* ContentView.swift */,
+				43B5123D25A8E46F00435FE6 /* EmojiView.swift */,
 				43B5122C25A8D5C800435FE6 /* Assets.xcassets */,
 				43B5123125A8D5C800435FE6 /* Persistence.swift */,
+				43B5124B25A9049200435FE6 /* AddView.swift */,
 				43B5123625A8D5C800435FE6 /* Info.plist */,
 				43B5123325A8D5C800435FE6 /* DadJokes.xcdatamodeld */,
 				43B5122E25A8D5C800435FE6 /* Preview Content */,
@@ -144,10 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B5124825A8FC8200435FE6 /* Joke+CoreDataClass.swift in Sources */,
 				43B5123225A8D5C800435FE6 /* Persistence.swift in Sources */,
 				43B5122B25A8D5C700435FE6 /* ContentView.swift in Sources */,
 				43B5123525A8D5C800435FE6 /* DadJokes.xcdatamodeld in Sources */,
+				43B5124C25A9049200435FE6 /* AddView.swift in Sources */,
 				43B5122925A8D5C700435FE6 /* DadJokesApp.swift in Sources */,
+				43B5123E25A8E46F00435FE6 /* EmojiView.swift in Sources */,
+				43B5124925A8FC8200435FE6 /* Joke+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
